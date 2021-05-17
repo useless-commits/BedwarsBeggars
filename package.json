@@ -4,6 +4,7 @@
   "description": "Captures players begging for ranks in bedwars lobby 1, and humiliates them.",
   "main": "bot.js",
   "scripts": {
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Permanently/BedwarsBeggars#readme",
   "dependencies": {
+    "dotenv": "^9.0.2",
     "mineflayer": "^3.6.0"
   }
 }
